@@ -1,0 +1,58 @@
+
+*
+{
+	margin: 0 px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html,body
+{
+	display: grid;
+	height: 100%;
+	place-items: center;
+	background: #f2f2f2;
+}
+.wrapper
+{
+	width: 380px;
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+
+}
+.wrapper .title
+{
+	line-height: 100px;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+
+}
+.wrapper form
+{
+ 	padding: 10px 30px 50px 30px;	 
+}
+.wrapper form .field
+{
+	height: 50px;
+	width: 100%;
+	margin-top: 20px;
+	position: relative;
+}
+.wrapper form .field input
+{
+	height: 100%;
+	width: 100%;
+}
+.wrapper form .field label
+{
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	
+}
+
+
+
+
